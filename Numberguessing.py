@@ -18,6 +18,6 @@ while c<math.log(U-L+1,2):
     elif guess<r:
         print("Too Low")
         
-if c>=round(math.log(U-L+1,2)):
+if c>round(math.log(U-L+1,2)):
     print("\nThe number is : %d" % r)
     print("\tBetter luck next time!")
